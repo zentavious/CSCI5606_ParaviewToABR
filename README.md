@@ -28,11 +28,11 @@ Tutorial:
 
 6. Navigate to https://oceans11.lanl.gov/deepwaterimpact/ and identify which simulation you are responsible for importing and load the 300x300x300 resolution data
 Ian - A31
-Matthew - C31
+Matthew - B31
 Audrey - B11
 Levi - A32
 Dat - C11
-Tristan - B31
+Tristan - C31
 7. Open Paraview and follow the tutorial here: https://github.com/ivlab/ABREngine-UnityPackage/tree/master/EasyParaViewToABR~ to load the EasyParaViewToABR plugin.
 8. Load the following state file into Paraview, CSCI5606_ParaviewToABR/ParaviewState/DataLoader.pvsm
 9. Iteratively load .vti files for your simulation into paraview until you find the point of impact where the meteor touches the water (Note: it can be helpful to save the files with their SciVis timestep. Ex. Instead of saving as pv_insitu_300x300x300_16936.vti, I would save it as pv_insitu_300x300x300_32.vti bc it is the 32nd timestep)
